@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+  z-index: 2;
+  width: 100%;
+    position: fixed;
+    top: 0;
+    padding-left: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #364148;
+    text-align: center;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100rem;
+}
+#logo{
+    margin: 20px 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #57C792;
+    user-select: none;
+}
+.items{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.items li{
+    user-select: none;
+    color: #57C792;
+    margin: 2rem 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+.items a{
+  text-decoration: none;
+  list-style: none;
+}
+.items li:hover{
+  color: white;
+  border-bottom: 2px solid white;
+}
+#cont{
+  display: none;
+}
+.BTN{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1rem;
+    background: #DDDDDD;
+    color: black;
+    cursor: pointer;
+    
+  }
+.BTN:hover{
+  background-color: #26a769;
+  color: white;
+  outline: none;
+  box-shadow: 0rem 0rem 2rem #26a769;
+}
+  #crossijh{
+    width: 1.5rem;
+  }
+#vghs{
+  display: none;
+}
+  #contac{
+    width: 1.5rem;
+    margin-right: 7px;
+  }
+  #cont{
+    display: none;
+  }
+  @media screen and (max-width: 480px) {
+    #vghs{
+      display: block;
+      margin-left: 7rem;
+    }
+    .container{
+        position: static;
+
+    }
+    .navbar{
+        width: 100%;
+    }
+    .jss{
+      display: none;
+    }
+    .ems{
+      position: fixed;
+      left: 27vw;
+      top: 2rem;
+      gap: 0;
+      flex-direction: column;
+      background-color: #262626;
+      width: 46%;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .BTN{
+        display: none;
+      }
+      #cont{
+        display: flex;
+        width: 2rem;
+        margin-right: 1rem;
+      }
+      .items li{
+        margin: 0.5rem
+    }
+  }  
+  
+  @media screen and (max-width: 768px) {
+    
+    .container{
+        left: 0rem;
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .items li{
+        margin: 0.5rem
+    }
+    .BTN{
+        display: none;
+      }
+      .lkj{
+        margin-right: 4rem;
+      }
+
+  }
+  @media screen and (max-width: 1024px) {
+    .container{
+        left: 0rem;
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .items li{
+        margin: 2rem 1rem;
+    }
+      .lkj{
+        margin-right: 4rem;
+      }
+      .BTN{
+        display: none;
+      }
+      .items li{
+        margin: 0.5rem
+    }
+
+  }
+  @media screen and (max-width: 1200px) {
+    .container{
+        padding-left: 0rem;
+        width: 100%;
+        position: fixed;
+        top: 0;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .items li{
+        margin: 2rem 1rem;
+    }
+      .lkj{
+        margin-right: 4rem;
+      }
+      .items{
+        margin-left: 5rem;
+      }
+      .items li{
+        margin: 0.5rem
+    }
+  }
+  @media screen and (min-width: 481px) and (max-width: 784px) {
+    .container{
+        left: 0rem;
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .jss{
+      display: none;
+    }
+    .ems{
+      position: fixed;
+      left: 42vw;
+      top: 1rem;
+      gap: 0;
+      flex-direction: column;
+      background-color: #262626;
+      width: 46%;
+      text-align: center;
+      transition: 0.3s;
+    }
+    #vghs{
+      display: block;
+      margin-left: 7rem;
+    }
+    .BTN{
+        display: none;
+      }
+      #cont{
+        display: flex;
+        width: 2rem;
+        margin-right: 1rem;
+      }
+  }
+  @media screen and (min-width: 1200px) and (max-width: 1532px) {
+    .container{
+      width: 100%;
+  }
+  .navbar{
+      width: 100%;
+  }
+  .items li{
+      margin: 2rem 1rem;
+  }
+    .items{
+      margin-left: 5rem;
+    }
+  }
+  /* @media screen and (min-width: 1532px) and (max-width: 1700px) {
+
+  } */

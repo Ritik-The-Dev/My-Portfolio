@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.linkssss{
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#ih1{
+    width: 4rem;
+        margin: 2rem 2rem;
+       
+}
+.lko{
+    background-color: #364148;
+}
+#copyr{
+    color: white;
+}
+.copyr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 6rem;
+    background-color: #2B3439;
+    user-select: none;
+}
+
+@media screen and (max-width: 480px) {
+    #ih1{
+        width: 4rem;
+        margin: 2rem 0.5rem;
+            }
+            #copyr{
+                font-size: 1rem;
+            }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #ih1{
+        width: 4rem;
+        margin: 2rem 1rem;
+            }
+            #copyr{
+                font-size: 1.5rem;
+            }
+}

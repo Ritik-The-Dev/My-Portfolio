@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**/
+.about-content {
+    width: 40%;
+  background-color: #364148;
+  padding: 3rem 2rem 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 0.8rem;
+  box-shadow: 1rem 1rem 3rem #495861;
+}
+.con{
+    width: 25%;
+}
+.about-content span {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #57c793;
+  }
+  .about-content p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-bottom: 1.4rem;
+    color: #fff;
+    border-bottom: 2px dotted rgb(183, 183, 183);
+  }
+  .About-info-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .about-icon {
+    font-size: 2.4rem;
+    color: #57c792;
+  }
+  .about-icon span {
+    font-weight: 500;
+    margin-left: 1rem;
+  }
+  .about-content h2 {
+    font-size: 3rem;
+  }
+  .sub-heading {
+    font-size: 2.4rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+  }
+  .abt-content {
+    font-size: 1.8rem;
+  }
+  .resume-btn {
+    margin-top: 2rem;
+    align-self: flex-start;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 0.8rem;
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+/**/
+.about {
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #364148;
+    color: #DDDDDD;
+  }
+  .ma{
+    margin-top: 8rem;
+  }
+
+@media screen and (max-width: 480px) {
+    .ma{
+        margin-top: 1rem;
+      }
+
+}
+@media screen and (max-width: 768px) {
+  .about-content{
+    width: 90%;}
+    .about-content h2 {
+      font-size: 2rem;
+    }
+    .sub-heading {
+      font-size: 1.5rem;
+      font-weight: 500;
+      padding-bottom: 2rem;
+    }
+    .abt-content {
+      font-size: 1rem;
+    }
+    .about-content p {
+      font-size: 1rem;}
+}
+@media screen and (max-width: 1024px) {
+
+    .ma{
+        margin-top: 2rem;
+      }
+}
+@media screen  and (max-width: 1350px) {
+  .About-info-box {
+    flex-direction: column;
+  }
+.about-content{
+  width: 70%;
+  margin-bottom: 2rem;
+}
+}

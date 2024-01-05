@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #364148;
+    color: white;
+  }
+  .ferm{
+    margin-top: 10rem;
+  }
+#cme{
+    font-size: 4rem;
+    font-weight: bolder;
+    margin: 2rem;
+    user-select: none;
+}
+#fil{
+    font-size: 1.5rem;
+    margin: 2rem;
+    user-select: none;
+}
+#nameee{
+    width: 47rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+#Email{
+    width: 47rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+#Message{
+    width: 47rem;
+    height:11rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.butn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    width: 14rem;
+    height: 4rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    background: white;
+    color: black;
+    margin-left: 16rem;
+    margin-bottom: 8rem;
+    cursor: pointer;
+    user-select: none;
+}
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+   }
+   
+   .Modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    width: 300px;
+    max-width: 90%;
+    z-index: 1001;
+   }
+@media screen  and (max-width: 480px) {
+    #cme{
+        font-size: 3rem;}
+    #fil{
+        font-size: 1rem;}
+        #nameee{
+            width: 20rem;
+            height: 4rem;
+            font-size: 1.5rem;
+        }
+        
+        #Email{
+            width: 20rem;
+            height: 4rem;
+            font-size: 1.5rem;
+        }
+        #Message{
+            width: 20rem;
+            height:8rem;
+            font-size: 1.5rem;
+        }
+        .butn{
+            margin: 0 auto;
+            margin-top: 2rem;
+        }
+        .ferm{
+            margin-top: 1rem;
+          }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #cme{
+        font-size: 3rem;}
+    #fil{
+        font-size: 2rem;}
+        #nameee{
+            width: 25rem;
+            height: 4rem;
+            font-size: 1.5rem;
+        }
+        
+        #Email{
+            width: 25rem;
+            height: 4rem;
+            font-size: 1.5rem;
+        }
+        #Message{
+            width: 25rem;
+            height:8rem;
+            font-size: 1.5rem;
+        }
+        .butn{
+            margin: 0 auto;
+            margin-top: 2rem;
+        }
+        .ferm{
+            margin-top: 2rem;
+          }
+}
